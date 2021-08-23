@@ -1,0 +1,121 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  color: #FFFF;
+}
+
+a:hover{
+  color: #7F7C82;
+}
+
+
+body{
+  background-color: #F3F1F5;
+}
+
+/*Header*/
+
+header{
+  background-color: #c3a1ce;
+  padding: 20px;
+  position: fixed;
+  top: 0vh;
+  width: 100%;
+  z-index: 1;
+}
+
+.logo{
+  display: inline-block;
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  height: 30px;
+  width: 100%;
+  
+}
+
+.logo img{
+  
+  width: 80px;
+  position: absolute;
+  
+  
+}
+
+/*Nav Bar*/
+
+nav{
+  
+  display: inline-block;
+  padding: 10px;
+  position: relative;
+  left: 80px;
+  
+
+}
+
+
+nav li{
+  font-family: 'Amatic SC', cursive;
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 18px;
+    
+}
+
+
+.inicio{
+  position: relative;
+  right: 70px;
+  z-index: 1;
+  font-family: 'Kristi', cursive;
+  font-size: 25px;
+}  
+
+/*Footer*/
+footer{
+  width: 100%;
+  background-color: #7F7C82;
+  padding: 20px;
+  position: fixed;
+  bottom: 0px;
+}
+
+.footer_redes-sociales{
+  margin: auto;
+  position: relative;
+  left: 100px;
+  top: 5px;
+  
+}
+
+.footer_redes-sociales li{
+  margin-right: 3vh;
+  display: inline-block;
+  position: relative;
+ }
+
+.footer_redes-sociales svg{
+  height: 25px;
+  width: 10vh;
+  color: #484749;
+}
+
+
+.footer_redes-sociales svg:hover{
+  color: #F3F1F5;
+
+}  
+
+/*Main*/
+main{
+  
+  margin-top: 17vh;
+  margin-bottom: 16vh;
+  font-family: 'Lexend Deca', sans-serif;
+}

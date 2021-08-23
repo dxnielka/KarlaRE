@@ -1,0 +1,136 @@
+
+
+
+.presentacion__texto{
+   border: solid #7F7C82;
+   border-style: dotted;
+   border-width: 4px;
+   border-radius: 18px;
+   font-size: 25px;
+   padding: 20px;
+   display: inline-block;
+   width: 90%;
+   padding: 25px;
+   position: relative;
+   left: 23px;
+   top: 45px;
+   
+
+}
+
+.presentacion__texto h1{
+   margin-bottom: 15px;
+   border-bottom: solid #BFA2DB;
+   color: #BFA2DB;
+   text-align: center;
+}
+
+.presentacion__texto p{
+
+   font-size: 0.7em;
+
+}
+
+.presentacion__imagen2 img{
+   width: 60px;
+}
+
+
+
+
+.presentacion__imagen2{
+
+  position: relative;
+  display: inline-block;
+  bottom: 365px;
+  left: 215px;
+
+}
+
+
+/*Media Queries*/
+
+@media only screen and (min-width: 992px){
+
+
+
+/*Nav Bar*/
+
+nav{
+  display: inline-block;
+  padding: 10px;
+  position: relative;
+  left: 800px;
+}
+
+nav li{
+  font-family: 'Amatic SC', cursive;
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 22px;  
+}
+
+.inicio{
+  position: relative;
+  right: 775px;
+  z-index: 1;
+  font-family: 'Kristi', cursive;
+  font-size: 40px;
+}
+
+
+
+/*Footer*/
+
+.footer_redes-sociales{
+  margin: auto;
+  position: relative;
+  left: 1000px;
+  top: 5px;
+  
+}
+
+.footer_redes-sociales li{
+  margin-right: 3vh;
+  display: inline-block;
+  position: relative;
+ }
+
+
+
+
+/*Presentacion*/
+
+
+.presentacion__texto{
+   border: solid #7F7C82;
+   border-style: dotted;
+   border-width: 4px;
+   border-radius: 18px;
+   font-size: 25px;
+   padding: 20px;
+   display: inline-block;
+   width: 50%;
+   padding: 25px;
+   position: relative;
+   left: 320px;
+   top: 95px;
+}
+
+
+.presentacion__imagen2 img{
+   width: 65px;
+}
+
+
+
+.presentacion__imagen2{
+
+  position: relative;
+  display: inline-block;
+  left: 265px;
+  top: 150px;
+
+}
+
+}

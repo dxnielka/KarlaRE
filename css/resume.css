@@ -1,0 +1,106 @@
+h1{
+	background-color: #F0D9FF;
+	color: #7F7C82;
+	font-size: 30px;
+	padding: 20px;
+	border-radius: 30px;
+	width: 100%;
+
+}
+
+h2{
+	border-top: solid #BFA2DB;
+	border-bottom: solid #BFA2DB;
+	color: #BFA2DB;
+	margin-top: 45px;
+	text-align: center;
+	padding: 15px;
+
+}
+
+p{
+	color: #7F7C82;
+	text-align: center;
+	margin-top: 25px;
+	font-size: 15px;
+
+}
+
+h3{
+	color: #BFA2DB;
+	text-align: center;
+	margin-top: 5px;
+	font-size: 15px;
+
+}
+
+
+/*Media Queries*/
+
+@media only screen and (min-width: 992px){
+
+h1{
+	
+	background-color: #F0D9FF;
+	color: #7F7C82;
+	font-size: 25px;
+	padding: 25px;
+	text-align: center;
+
+}
+
+h2{
+	color: #BFA2DB;
+
+	
+}
+
+
+p{
+	color: #7F7C82;
+	text-align: center;
+	margin-top: 10px;
+	font-size: 15px;
+
+}
+
+h3{
+	color: #BFA2DB;
+	text-align: center;
+	margin-top: 5px;
+	font-size: 10px;
+
+}
+
+.academico{
+
+	border: solid #BFA2DB;
+	display: inline-block;
+	padding: 10px;
+	border-radius: 15px;
+	border-style: dashed;
+	margin-left: 270px;
+	
+
+}
+
+.lab{
+	margin-top: 35px;
+	border: solid #BFA2DB;
+	display: inline-block;
+	padding: 10px;
+	width: 35%;
+	border-radius: 15px;
+	border-style: dashed;
+	margin-left: 50px;
+
+}
+
+
+
+
+
+
+
+
+}	
